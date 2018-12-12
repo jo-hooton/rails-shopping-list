@@ -1,1 +1,9 @@
-@import "bootstrap"
+@import "bootstrap";
+
+.app-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
