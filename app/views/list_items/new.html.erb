@@ -1,0 +1,11 @@
+<h1>Add Item to Shopping List</h1>
+
+<%= form_for @list_item do |form| %>
+
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+    <%= form.submit %>
+
+<% end %>
+
+<%= link_to 'Back to Shopping List', list_items_path %>

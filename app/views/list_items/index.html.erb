@@ -1,0 +1,10 @@
+<h1>Shopping List</h1>
+
+
+    <% @list_items.each do |list_item| %>
+        <li><%= list_item.name %></li>
+    <% end %>
+
+<br>
+
+<%= link_to 'Add Item', new_list_item_path %>
